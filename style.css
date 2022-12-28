@@ -435,6 +435,23 @@ ul{
     .cart-info p{
         display: none;
     }
+    
+        .imagesss #image{
+        height: 250px;
+        z-index: -100;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+
+    .about-us #headings{
+        font-size: 35px;
+        top: 155px;
+        left: 0px;
+        
+    }
+
+    .Nav{
+        z-index: 120;
+    }
 
 
 }
@@ -706,11 +723,8 @@ form a{
     transition: transform 1s;
 }
 
-
-
-
-
 /* ****************************About Us******************* */
+
 
 .imagesss img{
     display: block;
@@ -721,6 +735,7 @@ form a{
     margin-bottom: 100px;
     filter: brightness(50%);
     transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .imagesss img:hover{
