@@ -705,3 +705,61 @@ form a{
     transform: translateX(100px);
     transition: transform 1s;
 }
+
+
+
+
+
+
+
+/* ****************************About Us******************* */
+
+.imagesss img{
+    display: block;
+    width: 95%;
+    height: 70vh;
+    margin: 0 auto;
+    transform: 0.8s;
+    margin-bottom: 100px;
+    filter: brightness(50%);
+    transition: all 0.5s;
+}
+
+.imagesss img:hover{
+    filter: brightness(100%);
+}
+
+.about-us{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.about-us h1{
+    position: absolute;
+    top: 280px;
+    left: 13%;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0px 4px 6px rgba(0,0,0,0.4),
+             0px 8px 16px rgba(0,0,0,0.1),
+             0px 18px 26px rgba(0,0,0,0.1);
+}
+
+.about-us span{
+    color: #ff004f;
+}
+
+.about-us h5{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #ff004f;
+}
+
+.about-us p{
+    font-size: 15px;
+    margin: 10px;
+}
+
